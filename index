@@ -1,0 +1,40 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title">Bro Splits or Not?</h1>
+<p id="description">Bro splits are a fashion of excersise programming that hits one muscle group a day.</p>
+
+<form id="survey-form">
+  <label id="name-label"> Name:</label>
+  <input id="name" type="text" placeholder="Name" required>
+  <label id="email-label"> Email:</label>
+  <input id="email" type="email" placeholder="Email"  required>
+  <label id="number-label"> Number:</label>
+  <input id="number" type="number" min="1" max="1000" placeholder="Number" required>
+  <select id="dropdown">
+    <option value="Bro-split">Bro split</option> 
+    <option value="Push-Pull-Legs">Push Pull Legs</option> 
+    <option value="Upper-Lower">Upper Lower</option> 
+    <option value="Full-Body">Full Body</option> 
+  </select>
+  
+  <div class="input-radio">
+    <label>Hypertrophy <input type="radio" name="modality" value="1"></label>
+    <label>Strength <input type="radio" name="modality" value="2"></label>
+    <label>Fitness <input type="radio" name="modality" value="3"></label>
+    <label>Health <input type="radio" name="modality" value="4"></label>
+  </div>
+  
+  <div class="checkbox-input">
+    <label>Beginner <input type="checkbox" value="1"></label>
+  </div>
+  <div class="checkbox-input">
+    <label>Intermediate <input type="checkbox" value="2"></label>
+  </div>
+  <div class="checkbox-input">
+    <label>Advanced <input type="checkbox" value="3"> </label>
+  </div>
+  
+  <textarea></textarea>
+  <button id="submit" type="submit">Submit</button>
+  
+</form>
